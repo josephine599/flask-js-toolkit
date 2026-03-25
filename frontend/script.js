@@ -1,8 +1,15 @@
+const output = document.getElementById("output");
+const button = document.getElementById("fetch-btn");
+
 function getMessage() {
-  fetch("http://127.0.0.1:5000/api/message")
-    .then(response => response.json())
+  fetch("/api/message")
+    .then(res => res.json())
     .then(data => {
-      document.getElementById("output").innerText = data.message;
+      output.innerText = data.message;
+      output.classList.add("show");
+      setTimeout(() => output.classList.remove("show"), 1200);
     })
-    .catch(error => console.error("Error:", error));
+    .catch(err => console.error("Error:", err));
 }
+
+button.addEventListener("click", getMessage);

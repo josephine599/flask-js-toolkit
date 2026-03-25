@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Flask + JS Toolkit</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joke Generator | Flask + JS Toolkit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Flask API Test</h1>
-  <button onclick="getMessage()">Get Message</button>
-  <p id="output"></p>
+  <header>
+    <h1>😂 Joke Generator</h1>
+    <p class="subtitle">Fetch a random joke from the backend API instantly!</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <button id="fetch-btn">Get a Joke</button>
+      <div id="output" class="output-box">
+        <!-- Joke appears here -->
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Flask + JavaScript Toolkit | Beginner’s Friendly</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>

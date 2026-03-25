@@ -31,7 +31,7 @@ This toolkit demonstrates a simple full-stack web application where a Flask serv
    python app.py
    ```
 
-6. Open your browser and go to `http://127.0.0.1:5000` to see the live application.
+6. Open your browser and go to `http://127.0.0.1:5001` to see the live application.
 
 ## Usage
 

@@ -56,9 +56,9 @@ Download the codebase from the provided GitHub repo or ZIP file.
    ```
    python app.py
    ```
-   You should see output like: `* Running on http://127.0.0.1:5000/`
+   You should see output like: `* Running on http://127.0.0.1:5001/`
 
-2. Open your browser and navigate to `http://127.0.0.1:5000` to view the live application.
+2. Open your browser and navigate to `http://127.0.0.1:5001` to view the live application.
 
 ## 5. Minimal Working Example
 
